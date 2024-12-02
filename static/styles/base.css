@@ -250,6 +250,7 @@ main {
     color: black;
 }
 
+/* NavBar and menu styling */
 .nav-bar li,
 .nav-bar div,
 .nav-bar a {
@@ -334,11 +335,21 @@ main {
     color: #005f99;
 }
 
+/* Dropdown button styling */
+.dropdown-btn {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none; /* Hide by default */
+}
+
 @media (max-width: 750px) {
     :root {
         --nav-load-time: 100ms;
         --nav-link-load-time: 10ms;
     }
+
     .menu {
         position: absolute;
         top: 58px;
@@ -360,11 +371,25 @@ main {
         align-items: center;
         flex-direction: column;
     }
+
     .menu li {
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+    /* Show the dropdown button on small screens */
+    .dropdown-btn {
+        display: block;
+        font-size: 30px;
+        color: rgb(2, 0, 0);
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+        cursor: pointer;
+    }
 }
+
+/* Footer styling */
 .footer {
     flex-grow: 0;
     color: #999;
