@@ -19,7 +19,6 @@ h1 {
 }
 
 .project {
-  z-index: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
