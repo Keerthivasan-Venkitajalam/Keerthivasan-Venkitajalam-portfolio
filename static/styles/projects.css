@@ -19,6 +19,7 @@ h1 {
 }
 
 .project {
+  z-index:1;
   text-align: center;
   display: flex;
   flex-direction: column;
