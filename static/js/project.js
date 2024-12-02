@@ -147,11 +147,11 @@ project_data.forEach(function (project) {
   projectTitle.textContent = project.name;
   projectTitle.classList.add("title");
 
-  // Project Link
   var projectLink = document.createElement("a");
   projectLink.href = project.repository;
   projectLink.textContent = "View Repository";
   projectLink.setAttribute('target', '_blank'); // To open in new tab
+
 
   // Project Description
   var projectDescription = document.createElement("p");
