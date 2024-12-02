@@ -22,8 +22,7 @@ h1 {
   text-align: center;
   display: flex;
   flex-direction: column;
-  position: relative; /* Keep relative positioning for layout purposes */
-  z-index: 1; /* Lower z-index to avoid interfering with the dropdown */
+  position: relative;
   width: 300px;
   margin: 16px;
   padding: 20px;
@@ -35,7 +34,7 @@ h1 {
   transition: all 0.2s ease-in;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
   height: 380px; /* Consistent height */
-  overflow: visible; /* Ensure no clipping of child elements */
+  overflow: hidden;
 }
 
 
