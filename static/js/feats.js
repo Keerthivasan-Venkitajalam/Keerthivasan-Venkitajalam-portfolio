@@ -25,6 +25,21 @@ var feat_list = [
       "Shortlisted for Google's Solutions Challenge All India (Regional) level bootcamp 2023 with a solution to enhance flight efficiency and sustainable development by minimizing emissions and maximizing fuel efficiency.",
     cred: "https://github.com/Keerthivasan-Venkitajalam/flight-efficiency",
   },
+  {
+    "title": "ANOKHA 2024",
+    "src": "https://media.licdn.com/dms/image/v2/D5622AQEsp8sPKIbU3Q/feedshare-shrink_800/feedshare-shrink_800/0/1729432136375?e=1735776000&v=beta&t=wkb4c3a76NoMVYvenikqvsl0yQnpXeenuoqUrLB78Os",
+    "tags": ["Remote Healthcare", "IoT", "Innovation", "Tech Fair", "Exhibition"],
+    "context": 
+      "Our team, Nurtura, had the opportunity to showcase our Remote Healthcare Monitoring System at the Anokha Tech Fair / Exhibitions. We were among the top 30 projects shortlisted from numerous submissions, including those from various Amrita campuses and other universities. It was an incredible experience presenting our work and engaging with fellow innovators who shared remarkable ideas. We were evaluated by esteemed internals, including the Dean of Amrita School of Engineering, along with external experts. Their invaluable feedback encouraged us to think more deeply about the broader impact of our project.",
+    "cred": "https://github.com/Keerthivasan-Venkitajalam/remote-healthcare-monitoring"
+  },
+ {
+    "title": "Eureka! Pitching Competition 2024",
+    "src": "https://media.licdn.com/dms/image/v2/D5622AQFtYlE9XJjNZA/feedshare-shrink_800/feedshare-shrink_800/0/1728732483109?e=1735776000&v=beta&t=090_ssD1RpA17AbHyyFdq0QNG8dhjVdwQ8JUADovaX8",
+    "tags": ["Health Tech", "AI", "Women Empowerment", "Startup", "Pitching Competition"],
+    "context": "I'm excited to share that I presented our idea, HealthyHer by Nurtura, at the Eureka! Pitching Competition, organized by eventures, Amrita Vishwa Vidyapeetham, as part of the National Entrepreneurship Challenge 2024. HealthyHer is a personalized health and wellness platform designed specifically for women, offering health tracking, nutritional guidance, and AI-powered insights tailored to their unique needs. The experience was invaluable, with insightful feedback from the panel on bridging the gap between the idea and its implementation.",
+    "cred": "https://github.com/Keerthivasan-Venkitajalam/healthyher"
+  }
 ];
 
 for (let i = 0; i < feat_list.length; i++) {

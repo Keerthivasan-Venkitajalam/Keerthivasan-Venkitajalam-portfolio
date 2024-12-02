@@ -16,7 +16,6 @@ document.querySelector("body").insertAdjacentHTML(
             <li><a href="./about.html">About</a></li>
             <li><a href="./projects.html">Projects</a></li>
             <li><a href="./feats.html">Feats</a></li>
-            <li><a href="./blog.html">Blog</a></li>
             <li><a href="./resume.html">Resume</a></li>
           </span>
         </ul>
