@@ -379,15 +379,17 @@ main {
 
     /* Show the dropdown button on small screens */
     .dropdown-btn {
-        display: block;
-        font-size: 30px;
-        color: rgb(2, 0, 0); z-index: 3;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: transparent;
-        cursor: pointer;
-    }
+    display: block;
+    font-size: 30px;
+    color: rgb(2, 0, 0);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9999; /* Set a very high z-index */
+    position: relative; /* Ensure positioning context */
 }
+
 
 /* Footer styling */
 .footer {
