@@ -262,6 +262,18 @@ main {
     transform: scale(0);
 }
 
+/* NavBar and menu styling */
+.nav-bar li,
+.nav-bar div,
+.nav-bar a {
+    animation-name: nav-link-load;
+    animation-duration: var(--nav-link-load-time);
+    animation-timing-function: ease-in;
+    animation-delay: var(--nav-load-time);
+    animation-fill-mode: forwards;
+    transform: scale(0);
+}
+
 .nav-bar {
     width: fit-content;
     margin-left: auto;
@@ -279,7 +291,6 @@ main {
     animation: nav-load var(--nav-load-time) ease-in;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
-    z-index: 9999;
     overflow: visible;
 }
 
@@ -296,10 +307,9 @@ main {
     display: flex;
     flex-direction: row;
     transition: all ease-in 0.2s;
-    z-index: 10000;
+    z-index: 3;
     margin: 0;
     padding: 0;
-    position: absolute;
 }
 
 .menu.hidden {
@@ -342,10 +352,55 @@ main {
   font-size: 20px;
   background-color: transparent;
   border: none;
-  z-index: 10001;
   cursor: pointer; z-index: 3;
   display: none; /* Hide by default */
 }
+
+@media (max-width: 750px) {
+    :root {
+        --nav-load-time: 100ms;
+        --nav-link-load-time: 10ms;
+    }
+
+    .menu {
+        position: absolute;
+        top: 58px;
+        right: 0;
+        border: none;
+        margin: 0;
+        padding: 10px;
+        z-index: 3;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 24px;
+        height: fit-content;
+        display: inline-flex;
+        background-color: rgb(50, 49, 49);
+        border: #161614 1px solid;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px); z-index: 3;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-top: 5px; z-index: 3;
+        margin-bottom: 5px;
+    }
+
+    /* Show the dropdown button on small screens */
+    .dropdown-btn {
+        display: block;
+        font-size: 30px;
+        color: rgb(2, 0, 0); z-index: 3;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
+
 
 @media (max-width: 750px) {
     :root {
