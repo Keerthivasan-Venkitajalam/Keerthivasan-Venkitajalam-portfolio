@@ -11,7 +11,7 @@ var project_data = [
   },
   {
     name: "XOS File Management and Retrieval",
-    repository: "https://github.com/Keerthivasan-Venkitajalam/XOS-file-management-and-retrievalr",
+    repository: "https://github.com/Keerthivasan-Venkitajalam/XOS-file-management-and-retrieval",
     description: "Demonstrated file management concepts like block allocation, FAT indexing, and efficient storage mechanisms.",
     year: 2023,
     tech_stack: "C, File Systems"
