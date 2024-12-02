@@ -250,17 +250,6 @@ main {
     color: black;
 }
 
-.nav-bar li,
-.nav-bar div,
-.nav-bar a {
-    animation-name: nav-link-load;
-    animation-duration: var(--nav-link-load-time);
-    animation-timing-function: ease-in;
-    animation-delay: var(--nav-load-time);
-    animation-fill-mode: forwards;
-    transform: scale(0);
-}
-
 /* NavBar and menu styling */
 .nav-bar li,
 .nav-bar div,
